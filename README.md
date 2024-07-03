@@ -108,3 +108,23 @@ Clone the repository and navigate to the folder.
 ```bash
 git clone <repository-url>
 cd <repository-folder>
+```
+
+## Usage
+
+To run the JavaScript implementation of an algorithm:
+
+```bash
+node <javascript-file>.js
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## Suggested future improvements
+
+- Add more algorithmic exercises.
+- Improve test cases for more robust testing.
