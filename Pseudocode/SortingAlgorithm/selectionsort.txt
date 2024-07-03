@@ -1,0 +1,8 @@
+SORTING ALGORITHM - Selection Sort
+
+FOR EACH of the unsorted elements
+        set the first unsorted element as the smallest
+        compare with each element from index + 1
+                IF element LESSER THAN smallest
+                        SET element as the smallest
+swap smallest with the first unsorted position

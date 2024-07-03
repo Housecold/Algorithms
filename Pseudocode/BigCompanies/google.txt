@@ -1,0 +1,8 @@
+GOOGLE
+
+FOR EACH element1 in array
+        FOR EACH element2 starting from the next index of the element1
+                IF element1 + element2 EQUALS k
+                        RETURN true
+IF no pairs summing up to k found
+        RETURN false

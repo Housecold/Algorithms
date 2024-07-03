@@ -1,0 +1,9 @@
+FACEBOOK
+
+SET length as the length of the array
+IF length REMAINDER by 2 IS NOT EQUAL to 0 OR length EQUALS to 0
+        return false
+FOR EACH element of the array from index 0 to the midlle index
+        IF closing round/square/curly brackets IS NOT EQUAL to length - 1 - i index position
+                RETURN false
+RETURN TRUE

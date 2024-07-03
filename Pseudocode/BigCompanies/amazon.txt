@@ -1,0 +1,45 @@
+AMAZON
+
+IF length of str EQUALS 1
+        RETURN str
+IF str has a number EQUALS true
+        RETURN decode str
+IF str has no number EQUALS true
+        RETURN code str
+
+AMAZON - CODE 
+
+SET buffer as an empty string 
+SET current as the first character of string
+SET counter as 0
+FOR EACH character in str
+        IF character EQUALS current
+                increment counter by 1
+                IF index EQUALS the last index of str
+                        add counter to buffer
+                        add character to buffer
+        ELSE 
+                add counter to buffer
+                add the previous character to buffer
+                reset counter to 1
+                set current to the current character 
+                IF index EQUALS the last index of string
+                        add counter to buffer
+                        add the currrent character to buffer
+RETURN buffer 
+
+AMAZON - DECODE 
+
+SET buffer as an empty string
+SET counter as 0
+FOR EACH character in str
+        IF character is a string with a number between 0 and 9
+                IF counter is 0
+                        set counter to the integer value of number in the string
+                ELSE
+                        increment counter by multiplying it by 10 and adding the integer value of number in the string
+        ELSE
+                FOR EACH counter times
+                        append character to buffer
+                reset counter to 0
+RETURN buffer

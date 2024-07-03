@@ -1,0 +1,5 @@
+SORTING ALGORITHM - Insertion Sort 
+
+FOR EACH element as i
+        compare with each element as j
+              IF element j LESSER THAN element i, THEN place before
