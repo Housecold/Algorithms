@@ -8,21 +8,12 @@ Understand the process of creating an algorithm and gain skills in implementing 
 
 ## Skills
 
-By doing this assignment, you will:
 - Start thinking algorithmically.
 - Learn how to plan the solutions to programming tasks in advance.
 - Practice solving tasks that require algorithmic thinking.
 - Start testing your code.
 
-## Instructions
-
-1. Create pseudocode for every algorithm. Only then proceed to implement the solution in JavaScript.
-2. Use two files: one for pseudocode solutions and one for JavaScript implementations. Submit the files containing solutions for every problem. The JavaScript file must contain functions that return values.
-3. You must complete the first four exercises. The fifth is optional, but we recommend that you consider a possible pseudocode solution for it.
-4. Test your code with all the edge cases you might think of. When you are out of ideas, check the toggle list below each exercise and test some ideas.
-5. Refer to MDN for JavaScript syntax and methods.
-
-## Exercises
+## Exercise
 
 ### 1. Sorting Algorithm
 
@@ -30,7 +21,6 @@ Given a list of numbers, `[100, 95, 10, -10, 32, -55, 44, 10, 33, -564]`, sort t
 
 #### Test your code
 
-Test both your functions by passing arrays that represent edge cases as arguments and see if they work just the same with each one. Test your functions against:
 - An empty array (should return an empty array).
 - An array with just one element.
 - An already sorted array.
@@ -46,7 +36,6 @@ For example, given `[10, 15, 3, 7]` and `k` of `17`, return `true` since `10 + 7
 
 #### Test your code
 
-Test your functions by passing arrays and numbers representing edge cases as arguments. See if your function works with every case just as it did with the previous case. Test your functions against:
 - An empty array and any number as `k`, like `([], 10)`, which should return `false`.
 - An array with just one element with the exact number as `k`, like `([5], 5)`, which should return `false`.
 - An array with negative values and a negative `k`, like `([-5, 2, -8, 6], -3)`, which should return `true`.
@@ -62,7 +51,6 @@ Implement run-length encoding and decoding. You can assume the string to be enco
 
 #### Test your code
 
-Test your functions by passing a string that represents edge cases as an argument. See if they work just the same in every case. Test them against:
 - An empty string, which should return an empty string.
 - A string with a single character, that should return just `1<character>`.
 - A string with non-consecutive repeating characters, like `"acbcba"`, which should return `1a1c1b1c1b1a`.
@@ -82,20 +70,11 @@ For example:
 
 #### Test your code
 
-Test different cases, like:
 - The string `"()"`, which should return `true`.
 - The string `"{[()]}"`, which should return `true`.
 - The string `"{[()]"`, which should return `false`.
 - The string `"{[()]}}"`, which should return `false`.
 - The string `"{[()]"`, which should return `false`.
-
-## Submission
-
-Submit two files:
-1. `pseudocode_solutions.txt` containing pseudocode for each algorithm.
-2. `javascript_implementations.js` containing JavaScript functions that implement each algorithm.
-
-Make sure your functions return values and are thoroughly tested with edge cases.
 
 ## Requirements
 
